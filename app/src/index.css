@@ -1,0 +1,88 @@
+:root {
+  --navy: #00337f;
+  --navy-dark: #001f4d;
+  --navy-light: #4c7cc7;
+  --white: #ffffff;
+  --black: #000000;
+  --grey-bg: #f4f6fa;
+  --grey-line: #e1e6ee;
+  --orange: #e8622c;
+  --green: #3c9a5f;
+  --yellow: #f2c230;
+  --red: #d63a3a;
+  --purple: #7a5cc2;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+  background: var(--grey-bg);
+  color: var(--black);
+}
+
+a {
+  color: inherit;
+}
+
+code,
+.mono {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+button {
+  font-family: inherit;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: 2px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.status-pill {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 10px;
+}
+.status-pending {
+  background: #eef1f8;
+  color: #556;
+}
+.status-accepted {
+  background: #e4f3ea;
+  color: var(--green);
+}
+.status-rejected {
+  background: #fbeaea;
+  color: var(--red);
+}
+.status-route {
+  background: #e4f3ea;
+  color: var(--green);
+}
+.status-hold {
+  background: #fdf3de;
+  color: #a87a10;
+}
+.status-discard {
+  background: #f1f1f1;
+  color: #888;
+}
