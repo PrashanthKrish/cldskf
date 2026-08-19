@@ -1,3 +1,6 @@
+> Also in this repo: [`docs/optus/`](docs/optus/) — a second, unrelated prototype (TCS × Optus
+> Conversational AI demo). See [`docs/optus/README.md`](docs/optus/README.md) for details.
+
 # SKF CNEA · Demand Signal Radar
 
 A minimal prototype for **Lever A (Sales Growth), Challenge A2 — "Demand-signal blindness in the
